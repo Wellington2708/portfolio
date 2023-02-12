@@ -63,3 +63,7 @@ header {
     border: solid 2px var(--color-principal);
     list-style-type: none;
 }
+
+p {
+    color: red;
+}
