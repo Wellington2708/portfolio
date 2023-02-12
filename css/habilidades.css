@@ -1,0 +1,65 @@
+
+body {
+    background-color: var(--background);
+    font-family: var(--font-Chakra400);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 1em;
+}
+
+.logo__cabecalho {
+    width: 30vw;
+    height: 10vh;
+    
+}
+
+.navegacao {
+    padding: 1em;
+}
+
+.nav__lista {
+    margin: 0.3em 0;
+}
+
+.lista__menu  {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-principal);
+
+}
+
+.lista__menu:hover {
+    color: rgb(193, 140, 24);
+    text-decoration: underline;
+}
+
+.texto__formacao {
+    color: var(--color-principal);
+    font-size: 14px;
+}
+
+.titulo__certificado {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-principal);
+    font-size: 13px;
+}
+
+.certificado {
+    width: 130px;
+}
+
+.carrossel_certificados {
+    display: flex;
+    text-decoration: none;
+    color: var(--color-principal);
+    border: solid 2px var(--color-principal);
+    list-style-type: none;
+}

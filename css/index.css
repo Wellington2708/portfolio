@@ -1,0 +1,36 @@
+
+body {
+    font-family: var(--font-Chakra400);
+    background-color: var(--background);
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista__menu {
+    color: var(--color-principal);
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.lista__menu:hover {
+    color: rgb(193, 140, 24);
+    text-decoration: underline;
+}
+
