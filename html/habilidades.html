@@ -16,7 +16,7 @@
         <header>
             <div class="logo">
                 <h1><img src="/img/logo2.png" alt="logo Wellington Junior Developer Front-End" class="logo__cabecalho"></h1>
-                <p>Site em construção...</p>
+                <p class="construcao">Site em construção...</p>
             </div>
             <div>
                 <nav class="navegacao">
@@ -29,24 +29,29 @@
                 </nav>
             </div>
         </header>
-        <main class="carrossel_certificados">
-            <li>
-                <h2 ><a href=https://cursos.alura.com.br/user/WELLINGTONJUNIOR1027/fullCertificate/c896cb400ceeed3f9eb92524a7755db3 
-                class="titulo__certificado">Formação em programação</a></h2>
-                <img src="/img/inicianteProgramacao.png" alt="Certificado de formação em Iniciante em programação" class="certificado">
+        <main class="carrossel">
+            <div class="content">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
                 
-                <p class="texto__formacao">Em construção</p>
-            </li>
-            <li>
-                <h2 ><a href=https://cursos.alura.com.br/user/WELLINGTONJUNIOR1027/fullCertificate/c896cb400ceeed3f9eb92524a7755db3 class="titulo__certificado">Formação em HTML e CSS</a></h2>
-                <img src="/img/formacaoHTML.png" alt="Certificado de formação em HTML e CSS" class="certificado">
-                <p class="texto__formacao">Em construção</p>
-            </li>
-            <li>
-                <h2 ><a href=https://cursos.alura.com.br/user/WELLINGTONJUNIOR1027/fullCertificate/c896cb400ceeed3f9eb92524a7755db3 class="titulo__certificado">Formação em Javascript</a></h2>
-                <img src="/img/javascript.png" alt="Certificado de formação em JavaScript" class="certificado">
-                <p class="texto__formacao">Javascript em desenvolvimento</p>
-            </li>
+                    <div class="slide s1">
+                        <img src="/img/inicianteProgramacao.png" alt="Certificado de formação em Iniciante em programação" class="certificado">
+                    </div>
+                    <div class="slide s2">
+                        <img src="/img/formacaoHTML.png" alt="Certificado de formação em HTML e CSS" class="certificado">
+                    </div>
+                    <div class="slide s3">
+                        <img src="/img/javascript.png" alt="Certificado de formação em JavaScript" class="certificado">
+                    </div>
+                </div>
+                <div class="navigation">
+                    <label class="bar" for="slide1">1</label>
+                    <label class="bar" for="slide2">2</label>
+                    <label class="bar" for="slide3">3</label>
+                </div>
+            </div>
         </main>
 
  
