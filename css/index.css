@@ -5,16 +5,6 @@ body {
 
 }
 
-.construcao {
-    color: brown;
-    position: absolute;
-    left: 0.5em;
-    top: 2em;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: var(--font-Chakra400);
-}
-
 header {
     display: flex;
     flex-direction: column;
@@ -24,6 +14,16 @@ header {
     display: flex;
     justify-content: center;
     padding: 1em;
+}
+
+.construcao {
+    color: brown;
+    position: absolute;
+    left: 0.5em;
+    top: 2em;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--font-Chakra400);
 }
 
 .lista {
@@ -49,3 +49,19 @@ header {
     margin-top: 1em;
 }
 
+.quem__sou {
+    width: 100vw;
+    height: 2em;
+    
+}
+
+
+.botao__quem-sou {
+    background-color: rgb(221, 223, 195);
+    position: absolute;
+    left: 50%;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+
+}
