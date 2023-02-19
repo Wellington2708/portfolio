@@ -7,12 +7,31 @@ function sobreMim(){
     <style>
 
         .fechar__botao {
-            color: rgb(203 233 224)
+            color: rgb(203 233 224);
+            
         }
-    
+
+        .fechar {
+            background-color: rgb(221, 223, 195);
+            position: absolute;
+            left: 37%;
+            padding: 1em;
+            text-align: center;
+            border-radius: 1em;
+            text-transform: uppercase;
+            color: rgb(43, 89, 27);
+            font-family: auto;
+            font-weight: 900;
+            font-size: 14px;
+        }
+
+        .texto__quem-sou{
+            margin-left: 1em;
+        }
+        
     </style>
     <div class="fechar__botao">
-        <p>Olá, meu nome é Wellington Junior,sou natural de Goiânia - Goiás e formado em Gestão de Pessoas. 
+        <p class="texto__quem-sou">Olá, meu nome é Wellington Junior,sou natural de Goiânia - Goiás e formado em Gestão de Pessoas. 
         Tenho 34 anos e decidi migrar para a área de tecnologia. <br>
         Venho preparando-me para ser um Desenvolvedor Front-End aprendendo diariamente com teoria e prática.
         Prática essa que me leva a desenvolver projetos utilizando, por enquanto, HTML, CSS e Javascript.<br>

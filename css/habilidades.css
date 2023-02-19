@@ -2,8 +2,8 @@
 body {
     background-color: var(--background);
     font-family: var(--font-Chakra400);
-    height: 100vh;
-    width: 100vw;
+    
+    
 }
 
 header {
@@ -14,9 +14,10 @@ header {
 
 .certificados__titulo {
     color: #78eb43;
-    padding: 1em;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
+    
 }
 
 .logo {
@@ -53,14 +54,6 @@ header {
     color: var(--color-principal);
     font-size: 14px;
 }
-
-.titulo__certificado {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--color-principal);
-    font-size: 13px;
-}
-
 
 .content {
     height: 372px;
@@ -101,6 +94,7 @@ input {
     width: 1000%;
     height: 100%;
 }
+
 .slide {
     width: 10%;
     transition: .9s;
@@ -111,6 +105,7 @@ input {
     height: 85%;
     box-shadow: 10px 10px 10px 0 #3d2e2e;
     margin-top: 2em;
+    border-radius: 20px;
 }
 
 /* Relacionado a quantidade de imagens para dividir
@@ -163,3 +158,29 @@ dentro do width.*/
     font-family: var(--font-Chakra400);
 }
 
+.certificado__fasam {
+    display: block;
+    position: absolute;
+    bottom: 8em;
+    left: 4em;
+    color: #78eb43;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo__fasam {
+   width: 100%;
+   margin-top: 100%;
+    bottom: 2em;
+
+}
+
+.descricao__fasam {
+    width: 100%;
+    padding-bottom: 1em;
+    color:var(--color-descrition);
+    font-family: var(--font-Chakra400);
+    font-size: 15px;
+    
+}
