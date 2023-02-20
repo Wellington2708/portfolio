@@ -1,4 +1,5 @@
 
+/* header */
 body {
     background-color: var(--background);
     font-family: var(--font-Chakra400);
@@ -42,10 +43,36 @@ header {
     text-decoration: underline;
 }
 
-.construcao {
-    color: brown;
+/* Carrossel */
 
+.carrossel__titulo {
+    color: var(--titulo-imagens);
+    text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
-    font-family: var(--font-Chakra400);
+    text-decoration: none;
+}
+
+.swiper-slide img {
+    width: 195px;
+    height: 350px;
+    
+}
+
+.swiper-button-prev , 
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    background-color: rgb(244 246 240);
+    position: initial;
+    margin-top: 1em;
+    padding: 0.2em;
+}
+
+.descricao__projeto {
+    color: var(--textos);
+    margin: 0.4em 0.3em;
+    border: solid 2px #d01440;
+    padding: 1em;
 }

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/projetos.css">
 </head>
@@ -16,7 +17,6 @@
     <header>
         <div class="logo">
             <h1><img src="/img/logo2.png" alt="logo Wellington Junior Developer Front-End" class="logo__cabecalho"></h1>
-            <p class="construcao">Site em construção...</p>
         </div>
         <div>
             <nav class="navegacao">
@@ -29,7 +29,51 @@
             </nav>
         </div>
     </header>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Projects</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
 
 
-    </body>
+                <div class="swiper-slide"><img src="/img/curriculo.png" alt="Projeto desenvolvido para exposição de curriculo">
+                    <p class="descricao__projeto">Curriculo criado com a utilização de HTML, CSS e Javascript. Nele trabalho background, funções JS e listas.</p></div>
+                <div class="swiper-slide"><img src="/img/barbearia.png" alt="Projeto desenvolvido para a criação de um site de Barbearia">
+                    <p class="descricao__projeto">Site desenvolvido para antender clientes de uma barbearia. Com ele foi trabalhado HTML, CSS e aplicação de API.</p></div>
+                <div class="swiper-slide"><img src="/img/jogo1.png" alt="Jogo de atravessar a rua desenvolvido com Javascript">
+                    <p class="descricao__projeto">Jodo desenvolvido no site P5JS. Trabahado lógica de programação com Javascript.</p></div>
+                <div class="swiper-slide"><img src="/img/jogo3.png" alt="Jogo para adivinhar número desenvolvido com Javascript">
+                    <p class="descricao__projeto">Jogo de sorteio numeral. Curso realizado para aprendizado de Javascript e sua aplicação do comando de voz.</p></div>
+                <div class="swiper-slide"><img src="/img/arrays.png" alt="Projeto desenvolvido com arrays">
+                    <p class="descricao__projeto">Site da Alura com seus valores de cursos e suas promoções. Projeto desenvolvido para trabalhar com ARRAY em Javascript.</p></div>
+                <div class="swiper-slide"><img src="/img/flexbox.png" alt="Projeto desenvolvido para praticar flexbox">
+                    <p class="descricao__projeto">Site de divulgação de cursos. Projeto específico de Flexbox, desenvolvido para praticar posicionamento de elementos.</p></div>
+                <div class="swiper-slide"><img src="/img/flix.png" alt="Projeto desenvolvido para trabalhar layout de página">
+                    <p class="descricao__projeto">Projeto desenvolvido com a intenção de replicar o site da Alura+ utilizando HTML e CSS.</p></div>
+                <div class="swiper-slide"><img src="/img/validacao.png" alt="Projeto desenvolvido para trabalhar aplicação de uma API">
+                    <p class="descricao__projeto">Site para cadastro de dados. Desenvolvido para o aprendizado de aplicação de API para validação de dados.</p></div>
+                <div class="swiper-slide"><img src="/img/geek.png" alt="Projeto desenvolvido para trabalhar HTML e CSS">
+                    <p class="descricao__projeto">Site de vendas de produtos. Projeto desenvolvido para praticar HTML e CSS utilizando layout existe no FIGMA. </p></div>
+                <div class="swiper-slide"><img src="/img/midi.png" alt="Projeto desenvolvido para trabalhar o Javascript">
+                    <p class="descricao__projeto">Jogo de reprodução de sons. Projeto para trabalhar com JS manipulando o DOM, e adicionar interação do usuário.</p></div>
+                <div class="swiper-slide"><img src="/img/jogo2.png" alt="Jogo Pong desenvolvido com Javascript">
+                    <p class="descricao__projeto">Jogo desenvolvido para trabalhar lógica de programação.</p></div>
+                </div>
+
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/carrossel.js"></script>
+</body>
 </html>

@@ -5,12 +5,6 @@ function sobreMim(){
     var sobreMim = document.querySelector(".quem__sou");
     sobreMim.innerHTML= `
     <style>
-
-        .fechar__botao {
-            color: rgb(203 233 224);
-            
-        }
-
         .fechar {
             background-color: rgb(221, 223, 195);
             position: absolute;
@@ -27,6 +21,7 @@ function sobreMim(){
 
         .texto__quem-sou{
             margin-left: 1em;
+            color: var(--textos);
         }
         
     </style>
@@ -40,7 +35,6 @@ function sobreMim(){
     `
 }
 
-//document.querySelector(".quem__sou").onclick = sobreMim;
 
 function fechar(){
     var fechar = document.querySelector(".fechar__botao")
