@@ -39,7 +39,7 @@ header {
 }
 
 .lista__menu:hover {
-    color: rgb(193, 140, 24);
+    color: var(--hover);
     text-decoration: underline;
 }
 
@@ -54,7 +54,7 @@ header {
 
 .swiper-slide img {
     width: 195px;
-    height: 350px;
+    height: 299px;
     
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .swiper-pagination {
-    background-color: rgb(244 246 240);
+    background-color: var(--background-navegacao);
     position: initial;
     margin-top: 1em;
     padding: 0.2em;
@@ -73,6 +73,26 @@ header {
 .descricao__projeto {
     color: var(--textos);
     margin: 0.4em 0.3em;
-    border: solid 2px #d01440;
-    padding: 1em;
+    border: solid 2px var(--border-projetos);
+    padding: 0.4em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--logo-footer);
+    position: relative;
+    height: 12vh;
+    text-align: center;
+}
+
+.logo__footer {
+    width: 140px;
+}
+
+.creditos {
+    font-size: 14px;
+    font-weight: 800;
+    font-family: var(--fonte-creditos);
+    padding: 9px;
 }

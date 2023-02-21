@@ -1,4 +1,4 @@
-
+/* Header*/
 body {
     background-color: var(--background);
     font-family: var(--font-Chakra400);
@@ -38,14 +38,67 @@ header {
 }
 
 .lista__menu:hover {
-    color: rgb(193, 140, 24);
+    color: var(--hover);
     text-decoration: underline;
 }
 
-.construcao {
-    color: brown;
 
+/* Body */
+
+main {
+    width: 100%;
+}
+
+.email {
+    margin-top: 1em;
+}
+
+.lista__contatos {
+    font-weight: 800;
+    
+}
+
+.titulo__contatos{
+    color: var(--titulo-imagens);
+    text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    text-decoration: none;
+}
+
+.cor__link {
+    color: aliceblue;
+    font-size: 4em;
+    margin: 0.5em 0 0 0.5em;
+    
+    
+}
+
+.email , .linkedin ,
+.gitHub, .instagram {
+    
     font-family: var(--font-Chakra400);
+    color: #af9c7c;
+    margin-left: 6px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--logo-footer);
+    position: relative;
+    margin-top: 4em;
+    height: 16vh;
+    text-align: center;
+}
+
+.logo__footer {
+    width: 188px;
+    margin-top: 4px;
+}
+
+.creditos {
+    font-family: var(--fonte-creditos);
+    font-size: 14px;
+    font-weight: 800;
+    padding: 9px;
 }
