@@ -78,7 +78,7 @@ header {
 .footer {
     background-color: var(--logo-footer);
     position: relative;
-    margin-top: 7em;
+    margin-top: 5em;
     height: 16vh;
     text-align: center;
 }

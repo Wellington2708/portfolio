@@ -72,22 +72,23 @@ header {
 
 .descricao__projeto {
     color: var(--textos);
-    margin: 0.4em 0.3em;
+    margin: 0.2em 0.1em;
     border: solid 2px var(--border-projetos);
-    padding: 0.4em;
+    padding: 0.1em;
 }
 
 /* Footer */
 
 .footer {
     background-color: var(--logo-footer);
-    position: relative;
-    height: 12vh;
+    position: absolute;
+    width: 100%;
     text-align: center;
 }
 
 .logo__footer {
     width: 140px;
+    margin-top: 4px;
 }
 
 .creditos {

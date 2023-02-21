@@ -156,7 +156,7 @@ dentro do width.*/
 .certificado__fasam {
     display: block;
     position: absolute;
-    bottom: 13.5em;
+    bottom: 12em;
     left: 4em;
     color: var(--titulo-imagens);
     text-align: center;
@@ -166,7 +166,7 @@ dentro do width.*/
 
 .logo__fasam {
     width: 100%;
-    margin-top: 92%;
+    margin-top: 90%;
      bottom: 2em;
  
  }
@@ -175,7 +175,7 @@ dentro do width.*/
     width: 100%;
     color:var(--textos);
     font-family: var(--font-Chakra400);
-    font-size: 12px;
+    font-size: 11px;
     
 }
 
@@ -186,7 +186,7 @@ dentro do width.*/
 .footer {
     background-color: var(--logo-footer);
     position: relative;
-    margin-top: 0.3em;
+    margin-top: 0.2em;
     height: 9vh;
     text-align: center;
 }
