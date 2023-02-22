@@ -7,8 +7,6 @@ function sobreMim(){
     <style>
         .fechar {
             background-color: rgb(221, 223, 195);
-            position: absolute;
-            left: 37%;
             padding: 1em;
             text-align: center;
             border-radius: 1em;
@@ -20,7 +18,6 @@ function sobreMim(){
         }
 
         .texto__quem-sou{
-            margin-left: 1em;
             color: var(--textos);
         }
         

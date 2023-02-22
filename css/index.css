@@ -42,7 +42,7 @@ header {
     align-items: center; 
 }
 
-
+/* Main */
 
 .imagem__castelo {
     width: 80vw;
@@ -53,14 +53,14 @@ header {
 .quem__sou {
     width: 100vw;
     margin-top: 1em;
+    text-align: center;
     
 }
 
 
 .botao__quem-sou {
     background-color: rgb(221, 223, 195);
-    position: absolute;
-    left: 37%;
+    text-align: center;
     padding: 1em;
     text-align: center;
     border-radius: 1em;
@@ -78,8 +78,8 @@ header {
 .footer {
     background-color: var(--logo-footer);
     position: relative;
-    margin-top: 5em;
-    height: 16vh;
+    margin-top: 4.1em;
+    height: 15vh;
     text-align: center;
 }
 
@@ -94,3 +94,4 @@ header {
     font-family: var(--fonte-creditos);
     padding: 9px;
 }
+
