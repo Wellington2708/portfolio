@@ -3,6 +3,7 @@ body {
     font-family: var(--font-Chakra400);
     background-color: var(--background);
     height: 100vh;
+    
 
 }
 
@@ -45,8 +46,8 @@ header {
 /* Main */
 
 .imagem__castelo {
-    width: 80vw;
-    margin-top: 1em;
+    width: 87vw;
+    margin-top: 3em;
     box-shadow: 10px 10px 10px 0 #dce8d5;
 }
 
@@ -60,15 +61,18 @@ header {
 
 .botao__quem-sou{
    color: var(--hover);
+   margin-top: 2em;
 }
 /* Footer */
 
+
+
 .footer {
     background-color: var(--logo-footer);
-    position: relative;
-    margin-top: 1em;
-    height: 13vh;
     text-align: center;
+    position: inherit;
+   margin-top: 2em;
+    
 }
 
 .logo__footer {

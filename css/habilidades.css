@@ -47,28 +47,35 @@ header {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 0.5em;
     
-    
+}
+
+.carousel-inner img {
+    width: 100%;   
+    height: 100%;
+    margin-bottom: 1.5em;
 }
 
 .carousel-item img {
     box-shadow: 1px 10px 10px 0 #f5f5ef;
     border-radius: 20px;
-    
+     
 }
 
-.carousel-inner{
-    width: 100%;
-    height: 100%;
-}
+
+
 /* Relacionado a quantidade de imagens para dividir
 dentro do width.*/
 
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed)  {
     background-color: #d38e07;
     color: var(--color-principal);
+    
 }
+
+.accordion-button:not(.collapsed)::after {
+    transform: inherit;
+} 
 
  .descricao__fasam {
     width: 100%;
@@ -92,6 +99,8 @@ dentro do width.*/
     text-align: center;
 }
 /* Footer */
+
+
 
 .rodape {
     width: 100%;
