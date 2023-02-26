@@ -58,33 +58,21 @@ header {
 }
 
 
-.botao__quem-sou {
-    background-color: rgb(221, 223, 195);
-    text-align: center;
-    padding: 1em;
-    text-align: center;
-    border-radius: 1em;
-    text-transform: uppercase;
-    color: rgb(43, 89, 27);
-    font-family: auto;
-    font-weight: 900;
-    font-size: 14px;
-
-
+.botao__quem-sou{
+   color: var(--hover);
 }
-
 /* Footer */
 
 .footer {
     background-color: var(--logo-footer);
     position: relative;
-    margin-top: 4.1em;
-    height: 15vh;
+    margin-top: 1em;
+    height: 13vh;
     text-align: center;
 }
 
 .logo__footer {
-    width: 188px;
+    width: 115px;
     margin-top: 4px;
 }
 

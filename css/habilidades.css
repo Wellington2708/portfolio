@@ -1,17 +1,15 @@
 
 body {
     background-color: var(--background);
-    font-family: var(--font-Chakra400); 
+    font-family: var(--font-Chakra400);
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    padding: 0.5em;
+    height: 8em;
 }
 
 .logo__cabecalho {
@@ -43,13 +41,6 @@ header {
 
 /* Main */
 
-.carousel-item img{
-    box-shadow: 1px 10px 10px 0 #f5f5ef;
-    border-radius: 20px;
-    
-  
-}
-
 
 .certificados__titulo {
     color: var(--titulo-imagens);
@@ -57,23 +48,49 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    
     
 }
 
+.carousel-item img {
+    box-shadow: 1px 10px 10px 0 #f5f5ef;
+    border-radius: 20px;
+    
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
 /* Relacionado a quantidade de imagens para dividir
 dentro do width.*/
 
+.accordion-button:not(.collapsed) {
+    background-color: #d38e07;
+    color: var(--color-principal);
+}
 
  .descricao__fasam {
     width: 100%;
-    color:var(--textos);
+    text-transform: uppercase;
+    color:var(--color-principal);
     font-family: var(--font-Chakra400);
     font-size: 14px;
+    background-color: #d38e07;
+    padding: 1.2em;
     
 }
 
+.accordion-body {
+    color: #1b2a04;
+    background-color: #49b9ea;
+    font-size: 15px;
+    font-family: var(--font-Chakra400);
+}
 
+.accordion-button {
+    text-align: center;
+}
 /* Footer */
 
 .rodape {
@@ -87,3 +104,4 @@ dentro do width.*/
     width: 190px;
     margin: 1em;
 }
+

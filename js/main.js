@@ -6,15 +6,13 @@ function sobreMim(){
     sobreMim.innerHTML= `
     <style>
         .fechar {
-            background-color: rgb(221, 223, 195);
-            padding: 1em;
+            color: var(--hover);
+        }
+
+        .fechar__botao {
+            width: 100vw;
+            margin-top: 1em;
             text-align: center;
-            border-radius: 1em;
-            text-transform: uppercase;
-            color: rgb(43, 89, 27);
-            font-family: auto;
-            font-weight: 900;
-            font-size: 14px;
         }
 
         .texto__quem-sou{
@@ -27,7 +25,7 @@ function sobreMim(){
         Tenho 34 anos e decidi migrar para a área de tecnologia. <br>
         Venho preparando-me para ser um Desenvolvedor Front-End aprendendo diariamente com teoria e prática.
         Prática essa que me leva a desenvolver projetos utilizando, por enquanto, HTML, CSS e Javascript.<br>
-        <button onclick="fechar()" class="fechar">Fechar</button>
+        <button type="button" onclick="fechar()" class="btn btn-outline-warning fechar">Fechar</button>
     </div>
     `
 }
@@ -37,7 +35,8 @@ function fechar(){
     var fechar = document.querySelector(".fechar__botao")
     fechar.innerHTML = `
     <div class="quem__sou">
-        <button onclick="sobreMim()" class="botao__quem-sou">Sobre mim </button>
+        <button type="button" onclick="sobreMim()"  class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
+
     </div>    
     `
     
