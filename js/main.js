@@ -7,12 +7,14 @@ function sobreMim(){
     <style>
         .fechar {
             color: var(--hover);
+            text-transform: uppercase;
         }
 
         .fechar__botao {
             width: 100vw;
             margin-top: 1em;
             text-align: center;
+            
         }
 
         .texto__quem-sou{

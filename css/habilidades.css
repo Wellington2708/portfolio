@@ -2,7 +2,7 @@
 body {
     background-color: var(--background);
     font-family: var(--font-Chakra400);
-
+    height: 100vh;
 }
 
 header {
@@ -10,6 +10,10 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 8em;
+}
+
+.logo {
+    padding: 1em;
 }
 
 .logo__cabecalho {
@@ -51,8 +55,6 @@ header {
 }
 
 .carousel-inner img {
-    width: 100%;   
-    height: 100%;
     margin-bottom: 1.5em;
 }
 
@@ -61,11 +63,6 @@ header {
     border-radius: 20px;
      
 }
-
-
-
-/* Relacionado a quantidade de imagens para dividir
-dentro do width.*/
 
 .accordion-button:not(.collapsed)  {
     background-color: #d38e07;
@@ -88,6 +85,13 @@ dentro do width.*/
     
 }
 
+.texto__fasam {
+    color: var(--texto-fasam);
+    font-weight: 800;
+    font-family: var(--font-Chakra400);
+    font-size: 15px;
+}
+
 .accordion-body {
     color: #1b2a04;
     background-color: #49b9ea;
@@ -98,19 +102,26 @@ dentro do width.*/
 .accordion-button {
     text-align: center;
 }
+
+
 /* Footer */
 
-
-
-.rodape {
-    width: 100%;
-    background-color: var(--logo-footer);
+footer {
     text-align: center;
-
+        width: 100%;
+    background-color: var(--logo-footer);
 }
 
+
 .tamanho__logo {
-    width: 190px;
-    margin: 1em;
+    width: 120px;
+    margin-top: 0.5em;
+}
+
+.creditos {
+    font-size: 14px;
+    font-weight: 800;
+    font-family: var(--fonte-creditos);
+    padding: 9px;
 }
 

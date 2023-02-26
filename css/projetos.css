@@ -4,7 +4,6 @@ body {
     background-color: var(--background);
     font-family: var(--font-Chakra400);
     height: 100vh;
-    width: 100vw;
 }
 
 header {
@@ -25,6 +24,7 @@ header {
 
 .navegacao {
     padding: 1em;
+   
 }
 
 .nav__lista {
@@ -45,44 +45,37 @@ header {
 
 /* Carrossel */
 
-.carrossel__titulo {
+.projetos { 
     color: var(--titulo-imagens);
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.swiper-slide img {
-    width: 195px;
-    height: 299px;
-    
-}
-
-.swiper-button-prev , 
-.swiper-button-next {
-    display: none;
-}
-
-.swiper-pagination {
-    background-color: var(--background-navegacao);
-    position: initial;
-    margin-top: 1em;
-    padding: 0.2em;
+.carousel-item img {
+    box-shadow: 1px 10px 10px 0 #f5f5ef;
+    border-radius: 20px;
+     
 }
 
 .descricao__projeto {
     color: var(--textos);
-    margin: 0.2em 0.1em;
+    margin-bottom: 0.5em;
     border: solid 2px var(--border-projetos);
-    padding: 0.1em;
+
+}
+
+.carousel-inner img {
+    margin-bottom: 1.5em;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 /* Footer */
 
 .footer {
     background-color: var(--logo-footer);
-    position: absolute;
-    width: 100%;
     text-align: center;
 }
 

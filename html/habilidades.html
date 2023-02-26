@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="/css/reset.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
@@ -20,7 +19,7 @@
 <body>
   <header>
     <div class="logo">
-      <h1><img src="/img/logo2.png" class="img-fluid tamanho__logo" alt="logo Wellington Junior Developer Front-End">
+      <h1><img src="/img/logo2.png" class="img-fluid logo__cabecalho" alt="logo Wellington Junior Developer Front-End">
       </h1>
     </div>
     <div>
@@ -34,91 +33,93 @@
       </nav>
     </div>
   </header>
-  <div>
-    <h2 class="certificados__titulo">Certificados Front-End</h2>
-  </div>
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/img/certificado1.png" class="d-block w-100" alt="Certificado de Iniciante em Programação">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado2.png" class="d-block w-100" alt="Certificado de HTML e CSS">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado3.png" class="d-block w-100" alt="Certificado de formação em JS manipulando DOM">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado4.png" class="d-block w-100" alt="Certificado de formação em GIT e Github">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado5.png" class="d-block w-100" alt="Certificado de Orientação a Objeto em JS">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado6.png" class="d-block w-100"
-          alt="Certificado de Criação de Página Web com Javascript">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado7.png" class="d-block w-100" alt="Certificado de Git e Github">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado8.png" class="d-block w-100" alt="Certificado de Armazenamento de dados no Navegador">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado9.png" class="d-block w-100"
-          alt="Certificado de Validação e Reconhecimento de Voz com Javascript">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/certificado10.png" class="d-block w-100"
-          alt="Certificado Consumindo e tratando dados de uma API com Javascript">
-      </div>
-
+  <main>
+    <div>
+      <h2 class="certificados__titulo">Certificados Front-End</h2>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  </div>
-  <div class="curso__fasam">
-    <h2 class="certificados__titulo">Curso de Gestão de Pessoas</h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/certificado1.png" class="d-block w-100" alt="Certificado de Iniciante em Programação">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado2.png" class="d-block w-100" alt="Certificado de HTML e CSS">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado3.png" class="d-block w-100" alt="Certificado de formação em JS manipulando DOM">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado4.png" class="d-block w-100" alt="Certificado de formação em GIT e Github">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado5.png" class="d-block w-100" alt="Certificado de Orientação a Objeto em JS">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado6.png" class="d-block w-100"
+            alt="Certificado de Criação de Página Web com Javascript">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado7.png" class="d-block w-100" alt="Certificado de Git e Github">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado8.png" class="d-block w-100" alt="Certificado de Armazenamento de dados no Navegador">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado9.png" class="d-block w-100"
+            alt="Certificado de Validação e Reconhecimento de Voz com Javascript">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/certificado10.png" class="d-block w-100"
+            alt="Certificado Consumindo e tratando dados de uma API com Javascript">
+        </div>
 
-    <img src="/img/fasam.png" class="img-fluid" alt="Logo da Faculdade Sul-Americana">
-  </div>
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button descricao__fasam" type="button" data-bs-toggle="collapse"
-          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Descrição
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Formação no curso Gestão de Pessoas, capacitando-me com conhecimento teórico
-            e prático para realização de trabalhos em equipe, montando estratégias de execução
-            para o cumprimento de metas e prazos. </strong>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <div class="curso__fasam">
+      <h2 class="certificados__titulo">Curso de Gestão de Pessoas</h2>
+
+      <img src="/img/fasam.png" class="img-fluid" alt="Logo da Faculdade Sul-Americana">
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button descricao__fasam" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Descrição
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong class="texto__fasam">Formação no curso Gestão de Pessoas, capacitando-me com conhecimento teórico
+              e prático para realização de trabalhos em equipe, montando estratégias de execução
+              para o cumprimento de metas e prazos. </strong>
+          </div>
         </div>
       </div>
+  </main> 
+  <footer>
+    <div>
+      <img src="/img/logo2.png" class="img-fluid tamanho__logo" alt="Logo do desenvolvedor Wellington Junior">
+      <p class="creditos">Logo desenvolvido no site <a href="https://www.renderforest.com/">Renderforest</a></p>
     </div>
-    <footer class="rodape">
-      <div class="logo__footer">
-        <img src="/img/logo2.png" class="img-fluid tamanho__logo" alt="Logo do desenvolvedor Wellington Junior">
-      </div>
 
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"></script>
+  </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
-
 </html>
