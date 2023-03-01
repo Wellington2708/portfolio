@@ -1,10 +1,3 @@
-
-body {
-    background-color: var(--background);
-    font-family: var(--font-Chakra400);
-    height: 100vh;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -74,6 +67,7 @@ header {
     transform: inherit;
 } 
 
+
  .descricao__fasam {
     width: 100%;
     text-transform: uppercase;
@@ -124,4 +118,3 @@ footer {
     font-family: var(--fonte-creditos);
     padding: 9px;
 }
-
