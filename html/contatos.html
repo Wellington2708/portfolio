@@ -16,30 +16,25 @@
     <link rel="stylesheet" href="/css/contatos.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1><img src="/img/logo2.png" alt="logo Wellington Junior Developer Front-End" class="logo__cabecalho"></h1>
-        </div>
-        <div>
-            <nav class="navegacao">
-               <ul>
-                    <li class="nav__lista"><a href="/index.html" class="lista__menu"> HOME</a></li>
-                    <li class="nav__lista"><a href="/html/habilidades.html" class="lista__menu">Skills</a></li>
-                    <li class="nav__lista"><a href="/html/projetos.html" class="lista__menu">Projects</a></li>
-                    <li class="nav__lista"><a href="/html/contatos.html" class="lista__menu">Contacts</a></li>
-               </ul>
-            </nav>
-        </div>
+    <header class="cabecalho">
+        <h1><img src="/img/logo2.png" alt="logo Wellington Junior Developer Front-End" class="cabecalho__logo"></h1>
+        <nav>
+            <ul class="cabecalho__navegacao">
+                <li class="nav__lista"><a href="/index.html" class="navegacao__lista"> HOME</a></li>
+                <li class="nav__lista"><a href="/html/habilidades.html" class="navegacao__lista">Skills</a></li>
+                <li class="nav__lista"><a href="/html/projetos.html" class="navegacao__lista">Projects</a></li>
+                <li class="nav__lista"><a href="/html/contatos.html" class="navegacao__lista">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <ul class="lista__contatos">
-            <h2 class="titulo__contatos">Entre em contato</h2>
-            <li class="cor__link"><i class="fa-solid fa-envelope"></i><a class="email" href="mailto:wellingtondevelopercontact@gmail.com">Gmail</a></li>
-            <li class="cor__link"><i class="fa-brands fa-linkedin"></i><a class="linkedin" href="https://www.linkedin.com/in/wellington-junior-41513874/">Linkedin</a></li>  
-            <li class="cor__link"><i class="fa-brands fa-github"></i><a class="gitHub" href="https://github.com/Wellington2708">Github</a></li>  
-            <li class="cor__link"><i class="fa-brands fa-square-instagram"></i><a class="instagram" href="https://www.instagram.com/wellington_junior2710/">Instagram</a></li>
-        </ul>
-
+    <main class="contatos">
+        <h2 class="titulo__contatos">Contatos:</h2>
+        <div class="lista__contatos">
+            <a class="item__contatos cor__link__email" href="mailto:wellingtondevelopercontact@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a>
+            <a class="item__contatos cor__link__linkedin" href="https://www.linkedin.com/in/wellington-junior-41513874/"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+            <a class="item__contatos cor__link__github" href="https://github.com/Wellington2708"><i class="fa-brands fa-github"></i>Github</a>
+            <a class="item__contatos cor__link__instagram" href="https://www.instagram.com/wellington_junior2710/"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+        </div>
     </main>
     <footer>
         <div class="footer">

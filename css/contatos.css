@@ -1,77 +1,98 @@
-header {
+.cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
     padding: 1em;
 }
 
-.logo__cabecalho {
-    width: 30vw;
+.cabecalho__logo {
+    width: 40vw;
     height: 10vh;
     
 }
 
-.navegacao {
-    padding: 1em;
+.cabecalho__navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.nav__lista {
-    margin: 0.3em 0;
-}
-
-.lista__menu  {
+.navegacao__lista {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--color-principal);
 
 }
 
-.lista__menu:hover {
+.navegacao__lista:hover {
     color: var(--hover);
     text-decoration: underline;
 }
 
-
-/* Body */
-
-main {
-    width: 100%;
-}
-
-.email {
-    margin-top: 1em;
-}
-
-.lista__contatos {
-    font-weight: 800;
-    
-}
+/* Main */
 
 .titulo__contatos{
+    padding: 1em 0;
     color: var(--titulo-imagens);
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+
 }
 
-.cor__link {
-    color: aliceblue;
-    font-size: 3.5em;
-    margin: 0.5em 0 0 0.5em;
-    
+.lista__contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 50px;
+    align-items: flex-start;
+    padding: 1em;
+    justify-content: center;
     
 }
 
-.email , .linkedin ,
-.gitHub, .instagram {
-    
-    font-family: var(--font-Chakra400);
-    color: #af9c7c;
-    margin-left: 6px;
+
+
+.item__contatos {
+    text-decoration: none;
+    align-items: center;
+   
 }
+
+.item__contatos:hover {
+    background-color: rgb(146, 163, 117);
+} 
+
+
+
+.cor__link__email,
+.cor__link__linkedin ,
+.cor__link__github,
+.cor__link__instagram {
+    color: var(--titulo-imagens);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.fa-envelope {
+    color: rgb(159, 89, 89);
+    margin-right: 10px;
+}
+
+.fa-github,
+.fa-linkedin {
+    color:  var(--color-principal);
+    margin-right: 10px;
+}
+
+.fa-square-instagram {
+    color: rgb(200, 36, 129);
+    margin-right: 10px;
+}
+
+
+
 
 /* Footer */
 
