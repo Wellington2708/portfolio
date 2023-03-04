@@ -15,34 +15,28 @@
     
 </head>
     <body>
-        <header>
-            <div class="logo">
-                <h1><img src="/img/logo2.png" alt="logo Wellington Junior Developer Front-End" class="img-fluid"></h1>
-            </div>
-            <div>
-                <nav>
-                   <ul class="lista">
-                        <li><a href="index.html" class="lista__menu"> HOME</a></li>
-                        <li><a href="/html/habilidades.html" class="lista__menu">Skills</a></li>
-                        <li><a href="/html/projetos.html" class="lista__menu">Projects</a></li>
-                        <li><a href="/html/contatos.html" class="lista__menu">Contacts</a></li>
-                   </ul>
-                </nav>
-            </div>
+        <header class="cabecalho">
+            <h1><img src="assets/logo2.png" alt="logo Wellington Junior Developer Front-End" class="cabecalho__logo"></h1>
+            <nav>
+                <ul class="cabecalho__lista">
+                    <li><a href="index.html" class="cabecalho__lista__item"> HOME</a></li>
+                    <li><a href="habilidades.html" class="cabecalho__lista__item">Skills</a></li>
+                    <li><a href="projetos.html" class="cabecalho__lista__item">Projects</a></li>
+                    <li><a href="contatos.html" class="cabecalho__lista__item">Contacts</a></li>
+                </ul>
+            </nav>
         </header>
-        <main>
-            <div class="imagem__home">
-                <img src="img/castelo.png" alt="Wellington tirando foto em frente ao castelo" class="imagem__castelo">
+        <main class="apresentacao">
+            <div class="apresentacao__imagem">
+                <img src="assets/castelo.png" alt="Wellington tirando foto em frente ao castelo" class="imagem__castelo">
             </div>
-            <div class="quem__sou">
+            <div class="apresentacao__quem__sou">
                 <button type="button" class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
             </div>
         </main>
-        <footer>
-            <div class="footer">
-                <img src="/img/logo2.png" alt="logo Wellington Junior Developer Front-End" class="logo__footer img-fluid">
-                <p class="creditos">Logo desenvolvido no site <a href="https://www.renderforest.com/">Renderforest</a></p>
-            </div>
+        <footer class="rodape">
+                <img src="assets/logo2.png" alt="logo Wellington Junior Developer Front-End" class="rodape__logo">
+                <p class="rodape__creditos">Logo desenvolvido no site <a href="https://www.renderforest.com/">Renderforest</a></p>
         </footer>
 
         <script src="/js/main.js"></script>  

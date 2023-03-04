@@ -6,7 +6,7 @@
 }
 
 .cabecalho__logo {
-    width: 40vw;
+    width: 150px;
     height: 10vh;
     
 }
@@ -93,26 +93,26 @@
 }
 
 
-
-
 /* Footer */
 
-.footer {
+.rodape {
+    display: flex;
+    flex-direction: column;
     background-color: var(--logo-footer);
-    position: relative;
-    margin-top: 5.4em;
-    height: 16vh;
-    text-align: center;
+   align-items: center;
+    
 }
 
-.logo__footer {
-    width: 188px;
+.rodape__logo {
+    width: 115px;
     margin-top: 4px;
+
+
 }
 
-.creditos {
-    font-family: var(--fonte-creditos);
+.rodape__creditos {
     font-size: 14px;
     font-weight: 800;
+    font-family: var(--fonte-creditos);
     padding: 9px;
 }

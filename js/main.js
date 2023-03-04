@@ -2,7 +2,7 @@ var botao = document.querySelector(".botao__quem-sou");
 botao.addEventListener("click" , sobreMim);
 
 function sobreMim(){
-    var sobreMim = document.querySelector(".quem__sou");
+    var sobreMim = document.querySelector(".apresentacao__quem__sou");
     sobreMim.innerHTML= `
     <style>
         .fechar {
@@ -36,7 +36,7 @@ function sobreMim(){
 function fechar(){
     var fechar = document.querySelector(".fechar__botao")
     fechar.innerHTML = `
-    <div class="quem__sou">
+    <div class="apresentacao__quem__sou">
         <button type="button" onclick="sobreMim()"  class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
 
     </div>    
