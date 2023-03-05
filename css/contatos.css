@@ -11,32 +11,34 @@
     
 }
 
-.cabecalho__navegacao {
+.cabecalho__lista {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
 }
 
-.navegacao__lista {
+.cabecalho__lista__item {
+    color: var(--color-principal);
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--color-principal);
-
+    
 }
 
-.navegacao__lista:hover {
-    color: var(--hover);
+.cabecalho__lista__item:hover {
+    color: black;
     text-decoration: underline;
+    background-color: rgb(226, 198, 43);
 }
+ 
 
 /* Main */
 
 .titulo__contatos{
-    padding: 1em 0;
-    color: var(--titulo-imagens);
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
+        color: var(--titulo-imagens);
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: calc(1.325rem + .9vw);
 
 }
 
