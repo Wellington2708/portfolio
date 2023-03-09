@@ -6,9 +6,8 @@
 }
 
 .cabecalho__logo {
-    width: 150px;
-    height: 10vh;
-    
+    width: 30vw;
+
 }
 
 .cabecalho__lista {
@@ -31,6 +30,10 @@
  
 
 /* Main */
+.carousel {
+    width: 85%;
+    left: 7.5%;
+}
 
 
 .certificados__titulo {
@@ -43,6 +46,7 @@
 
 .carousel-inner img {
     margin-bottom: 1.5em;
+    
 }
 
 .carousel-item img {

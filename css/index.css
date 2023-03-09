@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 1em;
+    padding: 1em;
     
 }
 
@@ -12,7 +12,8 @@
 
 .cabecalho__lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     padding: 1em;
     margin: 0;
 }
@@ -29,7 +30,6 @@
 
 .cabecalho__lista__item:hover {
     color: black;
-    text-decoration: underline;
     background-color: rgb(226, 198, 43);
 }
  
@@ -50,13 +50,13 @@
 
 .imagem__castelo:hover {
     opacity: 0.6;
-    transition: 2000ms;
+    transition: 100ms;
+    box-shadow: 10px 10px 10px 0 #41821b;
 }
 
 .apresentacao__quem__sou {
     padding: 1.5em 0;
-    text-align: center;
-    
+    text-align: -webkit-center;
 }
 
 .botao__quem-sou{
@@ -76,9 +76,7 @@
 }
 
 .rodape__logo {
-    width: 115px;
-    margin-top: 4px;
-
+    width:30%;
 
 }
 
@@ -86,6 +84,6 @@
     font-size: 14px;
     font-weight: 800;
     font-family: var(--fonte-creditos);
-    padding: 9px;
+    display:flex ;
 }
 

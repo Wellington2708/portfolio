@@ -11,9 +11,8 @@ function sobreMim(){
         }
 
         .fechar__botao {
-            width: 100vw;
-            margin-top: 1em;
-            text-align: center;
+            width: 80vw;
+
             
         }
 
