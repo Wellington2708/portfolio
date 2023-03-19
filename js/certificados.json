@@ -1,5 +1,4 @@
-{
-    "certificates": [
+ [
         {
             "id": 1,
             "titulo": "Iniciante em programação",
@@ -71,7 +70,7 @@
             "imagem": "http://127.0.0.1:5502/assets/certificado9.png",
             "alt": "Certificado de Validação e Reconhecimento de Voz com Javascript",
             "categoria": "Javascript"
-
+  
           },
           {
             "id": 10,
@@ -80,7 +79,10 @@
             "imagem": "http://127.0.0.1:5502/assets/certificado10.png",
             "alt": "Certificado Consumindo e tratando dados de uma API com Javascript",
             "categoria": "Javascript"
+  
+          }  
+    ] 
+ 
 
-          }   
-    ]
-}
+
+

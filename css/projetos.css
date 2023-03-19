@@ -5,27 +5,21 @@
     padding: 1em;
 }
 
-ul {
-    padding: 0;
-}
-
 .cabecalho__logo {
-    width: 150px;
-    height: 10vh;
+    width: 30vw;
     
 }
 
 .cabecalho__lista {
     display: flex;
     flex-direction: column;
-    
+    gap: 10px;
 }
 
 .cabecalho__lista__item {
     color: var(--color-principal);
     text-transform: uppercase;
     text-decoration: none;
-   
     
 }
 

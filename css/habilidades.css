@@ -55,27 +55,16 @@
      
 }
 
-.accordion-button:not(.collapsed)  {
-    background-color: #d38e07;
-    color: var(--color-principal);
-    
+
+
+/* Fasam */
+
+.imagem__fasam {
+    width: 85%;
+    margin-left: 7.5%;
+    border-radius: 10px;
 }
 
-.accordion-button:not(.collapsed)::after {
-    transform: inherit;
-} 
-
-
- .descricao__fasam {
-    width: 100%;
-    text-transform: uppercase;
-    color:var(--color-principal);
-    font-family: var(--font-Chakra400);
-    font-size: 14px;
-    background-color: #d38e07;
-    padding: 1.2em;
-    
-}
 
 .texto__fasam {
     color: var(--texto-fasam);
@@ -84,8 +73,16 @@
     font-size: 15px;
 }
 
+/* Accordion */
+
+.accordion {
+    width: 85%;
+    margin-left: 7.5%;
+    background-color: black;
+}
+
 .accordion-body {
-    color: #1b2a04;
+   
     background-color: #49b9ea;
     font-size: 15px;
     font-family: var(--font-Chakra400);
@@ -93,7 +90,23 @@
 
 .accordion-button {
     text-align: center;
+    background-color: var(--border-projetos);
+    color: white;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
 }
+
+.accordion-button:not(.collapsed)  {
+    background-color: var(--border-projetos);
+    color: var(--color-principal);
+    
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: inherit;
+} 
 
 
 /* Footer */
