@@ -1,8 +1,8 @@
-var botao = document.querySelector(".botao__quem-sou");
+let botao = document.querySelector(".botao__quem-sou");
 botao.addEventListener("click" , sobreMim);
 
 function sobreMim(){
-    var sobreMim = document.querySelector(".apresentacao__quem__sou");
+    let sobreMim = document.querySelector(".apresentacao__quem__sou");
     sobreMim.innerHTML= `
     <style>
         .fechar {
@@ -33,7 +33,7 @@ function sobreMim(){
 
 
 function fechar(){
-    var fechar = document.querySelector(".fechar__botao")
+    let fechar = document.querySelector(".fechar__botao")
     fechar.innerHTML = `
     <div class="apresentacao__quem__sou">
         <button type="button" onclick="sobreMim()"  class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>

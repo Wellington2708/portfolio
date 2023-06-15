@@ -1,16 +1,18 @@
 :root {
     --font-Chakra400: 'Chakra Petch', sans-serif;
-    --background: #131314;
-    --color-principal:#f0ffff;
+    --background: #ADD8E6;
+    --color-principal:#020a0a;
+    --borda-itens: #4d54e7;
     --color-descrition: rgb(203 233 224);
-    --titulo-imagens: rgb(221, 223, 195);
-    --textos: rgb(203 233 224);
-    --hover: rgb(193, 140, 24);
-    --logo-footer: beige;
-    --background-navegacao: rgb(244 246 240);
+    --titulo-imagens: rgb(55, 17, 180);
+    --textos: rgb(11, 10, 12);
+    --hover: rgb(36, 2, 111);
+    --background-navegacao: rgb(13, 11, 146);
     --border-projetos: #d01440;
     --fonte-creditos: Arial, Helvetica, sans-serif;
-    --texto-fasam: #4e470b;
+    --texto-fasam: #100f02;
+    --hover-itens-cabecalho: rgb(43, 153, 226);
+    --hover-navegacao: rgb(36, 169, 231);
 }
 
 
@@ -18,5 +20,6 @@ body {
     font-family: var(--font-Chakra400);
     background-color: var(--background);
     box-sizing: border-box;
+    width: 100%;
     
 }

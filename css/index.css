@@ -1,7 +1,9 @@
 .cabecalho{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 25%;
     text-align: center;
+    
     padding: 1em;
     
 }
@@ -22,15 +24,16 @@
     color: var(--color-principal);
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid #dce8d5;
+    border: 2px solid var(--borda-itens);
     border-radius: 10%;
     padding: 0.3em;
     
 }
 
 .cabecalho__lista__item:hover {
-    color: black;
-    background-color: rgb(226, 198, 43);
+    color: rgb(19, 3, 40);
+    background-color: var(--hover-itens-cabecalho);
+    
 }
  
 
@@ -44,13 +47,11 @@
 }
 
 .imagem__castelo {
-    width: 80vw;
+    width: 35vw;
     box-shadow: 10px 10px 10px 0 #dce8d5;
 }
 
 .imagem__castelo:hover {
-    opacity: 0.6;
-    transition: 100ms;
     box-shadow: 10px 10px 10px 0 #41821b;
 }
 
@@ -63,27 +64,3 @@
    color: var(--hover);
    text-transform: uppercase;
 }
-/* Footer */
-
-
-
-.rodape {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--logo-footer);
-   align-items: center;
-    
-}
-
-.rodape__logo {
-    width:30%;
-
-}
-
-.rodape__creditos {
-    font-size: 14px;
-    font-weight: 800;
-    font-family: var(--fonte-creditos);
-    display:flex ;
-}
-

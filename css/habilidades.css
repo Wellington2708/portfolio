@@ -1,38 +1,45 @@
-.cabecalho {
+.cabecalho{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 25%;
+    text-align: center;
+    
     padding: 1em;
+    
 }
 
 .cabecalho__logo {
-    width: 30vw;
-
+    margin: 0;
 }
 
 .cabecalho__lista {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
+    padding: 1em;
+    margin: 0;
 }
 
 .cabecalho__lista__item {
     color: var(--color-principal);
     text-transform: uppercase;
     text-decoration: none;
+    border: 2px solid var(--borda-itens);
+    border-radius: 10%;
+    padding: 0.3em;
+    
 }
 
 .cabecalho__lista__item:hover {
-    color: black;
-    text-decoration: underline;
-    background-color: rgb(226, 198, 43);
+    color: rgb(19, 3, 40);
+    background-color: var(--hover-itens-cabecalho);
+    
 }
- 
 
 /* Main */
 .carousel {
-    width: 85%;
-    left: 7.5%;
+    width: 30%;
+    left: 35%;
 }
 
 
@@ -59,10 +66,21 @@
 
 /* Fasam */
 
+.curso__fasam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .imagem__fasam {
-    width: 85%;
-    margin-left: 7.5%;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 1em;
+        
 }
 
 
@@ -76,10 +94,12 @@
 /* Accordion */
 
 .accordion {
-    width: 85%;
-    margin-left: 7.5%;
+    width: 27%;
+    margin-left: 36.5%;
     background-color: black;
 }
+
+
 
 .accordion-body {
    
@@ -107,25 +127,3 @@
 .accordion-button:not(.collapsed)::after {
     transform: inherit;
 } 
-
-
-/* Footer */
-
-footer {
-    text-align: center;
-        width: 100%;
-    background-color: var(--logo-footer);
-}
-
-
-.tamanho__logo {
-    width: 120px;
-    margin-top: 0.5em;
-}
-
-.creditos {
-    font-size: 14px;
-    font-weight: 800;
-    font-family: var(--fonte-creditos);
-    padding: 9px;
-}
