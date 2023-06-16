@@ -127,3 +127,14 @@
 .accordion-button:not(.collapsed)::after {
     transform: inherit;
 } 
+
+@media (max-width: 768px) {
+    .cabecalho {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .cabecalho__lista {
+      flex-direction: column;
+    }
+  }

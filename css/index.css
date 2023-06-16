@@ -3,12 +3,12 @@
     justify-content: center;
     gap: 25%;
     text-align: center;
-    
     padding: 1em;
     
 }
 
 .cabecalho__logo {
+    width: 90%;
     margin: 0;
 }
 
@@ -64,3 +64,15 @@
    color: var(--hover);
    text-transform: uppercase;
 }
+
+
+@media (max-width: 768px) {
+    .cabecalho {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .cabecalho__lista {
+      flex-direction: column;
+    }
+  }
