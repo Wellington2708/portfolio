@@ -6,7 +6,6 @@
     --color-descrition: rgb(203 233 224);
     --titulo-imagens: rgb(55, 17, 180);
     --textos: rgb(11, 10, 12);
-    --hover: rgb(36, 2, 111);
     --background-navegacao: rgb(13, 11, 146);
     --border-projetos: #d01440;
     --fonte-creditos: Arial, Helvetica, sans-serif;
@@ -25,6 +24,76 @@
 body {
     font-family: var(--font-Chakra400);
     background-color: var(--background);
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+}
+
+/*Header*/
+
+.cabecalho {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.cabecalho .cabecalho__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+}
+
+
+.cabecalho__navegacao {
+    display: flex;
+  
+    justify-content: center;
+    text-align: center;
+}
+
+.audio__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.audio__titulo {
+    background-color: rgb(70, 40, 238);
+    color: #FFF;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+
+
+.cabecalho__lista__item {
+    color: var(--color-principal);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid var(--borda-itens);
+    border-radius: 10%;
+    padding: 0.3em;
+
+}
+
+.cabecalho__lista__item:hover {
+    color: #FFF;
+    background-color: var(--borda-itens);
+
+}
+
+

@@ -1,7 +1,11 @@
 const imagensProjetos = document.querySelector(".carrossel__projetos");
 
 imagensProjetos.innerHTML = `
-<section class="carrossel__projetos">
+  <section id="projetos" class="carrossel__projetos">
+
+  <div>
+            <h2 class="projetos">Projects</h2>
+        </div>
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="4000">

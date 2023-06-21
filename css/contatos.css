@@ -1,47 +1,9 @@
-.cabecalho{
-    display: flex;
-    justify-content: center;
-    gap: 25%;
-    text-align: center;
-    
-    padding: 1em;
-    
-}
-
-.cabecalho__logo {
-    margin: 0;
-}
-
-.cabecalho__lista {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 1em;
-    margin: 0;
-}
-
-.cabecalho__lista__item {
-    color: var(--color-principal);
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid var(--borda-itens);
-    border-radius: 10%;
-    padding: 0.3em;
-    
-}
-
-.cabecalho__lista__item:hover {
-    color: rgb(19, 3, 40);
-    background-color: var(--hover-itens-cabecalho);
-    
-}
-
-
-/* Main */
-
 .contatos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 .titulo__contatos{
@@ -85,7 +47,7 @@
 .link__email,
 .link__linkedin ,
 .link__github,
-.link__instagram {
+.link__facebook{
     color: var(--titulo-imagens);
     font-family:'Courier New', Courier, monospace;
     font-size: 44px;
@@ -118,5 +80,9 @@
     
     .cabecalho__lista {
       flex-direction: column;
+    }
+
+    .item__contatos {
+        font-size: 25px;
     }
   }

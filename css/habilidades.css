@@ -1,45 +1,16 @@
-.cabecalho{
+/* Section skills */
+.certificados {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 25%;
-    text-align: center;
-    
-    padding: 1em;
-    
+    align-items: center;
+
+
 }
 
-.cabecalho__logo {
-    margin: 0;
-}
-
-.cabecalho__lista {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 1em;
-    margin: 0;
-}
-
-.cabecalho__lista__item {
-    color: var(--color-principal);
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid var(--borda-itens);
-    border-radius: 10%;
-    padding: 0.3em;
-    
-}
-
-.cabecalho__lista__item:hover {
-    color: rgb(19, 3, 40);
-    background-color: var(--hover-itens-cabecalho);
-    
-}
-
-/* Main */
 .carousel {
-    width: 30%;
-    left: 35%;
+    width: 100%;
+
 }
 
 
@@ -47,29 +18,38 @@
     color: var(--titulo-imagens);
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
-    
+
 }
 
 .carousel-inner img {
     margin-bottom: 1.5em;
-    
+
 }
 
 .carousel-item img {
     box-shadow: 1px 10px 10px 0 #f5f5ef;
     border-radius: 20px;
-     
+
 }
+
 
 
 
 /* Fasam */
 
-.curso__fasam {
+.formacao__fasam {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+
+.curso__fasam {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     align-items: center;
 }
 
@@ -80,7 +60,7 @@
     align-items: center;
     width: 30%;
     padding: 1em;
-        
+
 }
 
 
@@ -102,7 +82,7 @@
 
 
 .accordion-body {
-   
+
     background-color: #49b9ea;
     font-size: 15px;
     font-family: var(--font-Chakra400);
@@ -113,28 +93,37 @@
     background-color: var(--border-projetos);
     color: white;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    
+
 }
 
-.accordion-button:not(.collapsed)  {
+.accordion-button:not(.collapsed) {
     background-color: var(--border-projetos);
     color: var(--color-principal);
-    
+
 }
 
 .accordion-button:not(.collapsed)::after {
     transform: inherit;
-} 
+}
 
 @media (max-width: 768px) {
-    .cabecalho {
-      flex-wrap: wrap;
+    .formacao__fasam {
       align-items: center;
     }
-    
-    .cabecalho__lista {
-      flex-direction: column;
+  
+    .curso__fasam {
+      width: 100%;
+      padding: 0.5em;
+    }
+  
+    .imagem__fasam {
+      width: 100%;
+    }
+  
+    .accordion {
+      width: 90%;
+      margin-left: 5%;
     }
   }

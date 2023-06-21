@@ -1,44 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Wellington Junior</title>
     <link rel="stylesheet" href="/css/reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/index.css">
-
-    
+    <link rel="stylesheet" href="/css/sobreMim.css">
+    <link rel="stylesheet" href="/css/contatos.css">
+    <link rel="stylesheet" href="/css/habilidades.css">
+    <link rel="stylesheet" href="/css/projetos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-    <body>
-        <header class="cabecalho">
-            <h1><img src="assets/logo2.png" alt="logo Wellington Junior Developer Front-End" class="cabecalho__logo"></h1>
-            <nav class="navegacao__cabecalho">
-                <ul class="cabecalho__lista">
-                    <li><a href="index.html" class="cabecalho__lista__item"> HOME</a></li>
-                    <li><a href="habilidades.html" class="cabecalho__lista__item">Skills</a></li>
-                    <li><a href="projetos.html" class="cabecalho__lista__item">Projects</a></li>
-                    <li><a href="contatos.html" class="cabecalho__lista__item">Contacts</a></li>
-                </ul>
-            </nav>
-            <audio src="/audio/semVoce.mp3" type="audio/mp3" controls></audio>
-        </header>
-        <main class="apresentacao">
-            <div class="apresentacao__imagem">
-                <img src="assets/castelo.png" alt="Wellington tirando foto em frente ao castelo" class="imagem__castelo">
-            </div>
-            <div class="apresentacao__quem__sou">
-                <button type="button" class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
-            </div>
-        </main>
 
-        <script src="/js/quemSou.js"></script>  
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-    </body>
+<body>
+    <!-- Cabecalho -->
+    <main class="cabecalho">
+        <h1><img src="assets/logo2.png" alt="logo Wellington Junior Developer Front-End" class="cabecalho__logo"></h1>
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__lista">
+                <li><a href="#sobreMim" class="cabecalho__lista__item">About me</a></li>
+                <li><a href="#habilidades" class="cabecalho__lista__item">Skills</a></li>
+                <li><a href="#graduacao" class="cabecalho__lista__item">Graduation</a></li>
+                <li><a href="#projetos" class="cabecalho__lista__item">Projects</a></li>
+                <li><a href="#contatos" class="cabecalho__lista__item">Contacts</a></li>
+                <div class="audio__container">
+                    <audio src="/audio/Bon Jov-Its My Life.mp3" type="audio/mp3" controls class="audio"></audio>
+                    <label class="audio__titulo">Bon Jovi - It's My Life</label>
+                </div>
+            </ul>
+        </nav>
+    </main>
+    <!--Section about me-->
+    <section id="sobreMim" class="apresentacao">
+        <div class="apresentacao__imagem">
+            <img src="assets/castelo.png" alt="Wellington tirando foto em frente ao castelo"
+                class="imagem__castelo">
+        </div>
+        <div class="apresentacao__quem__sou">
+            <button type="button" class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
+        </div>
+    </section>
+
+    <!--Section das habilidades com os principais certificados-->
+    <section id="habilidades" class="certificados habilidades">
+        <div class="certificates">
+                <!-- Conteúdo do carrossel aqui -->
+        </div>
+    </section>
+
+    <!--Section da graduação -->
+     <section id="graduacao" class="formacao__fasam"> 
+    <!--Imagem Fasam -->
+    </section>
+
+    <!--Section para projetos-->
+
+    <section id="projetos" class="carrossel__projetos">
+
+    <!-- Conteúdo com as Imagens dos projetos  -->
+
+    </section>
+
+    <!--Section para contatos-->
+
+    <section id="contatos" class="contatos">
+        <h2 class="titulo__contatos">Contatos:</h2>
+        <div class="contatos">
+
+            <div class="lista__contatos">
+                <a class="item__contatos link__email" href="mailto:wellingtondevelopercontact@gmail.com"><i
+                        class="fa-solid fa-envelope"></i>Email</a>
+                <a class="item__contatos link__linkedin"
+                    href="https://www.linkedin.com/in/wellington-junior-41513874/"><i
+                        class="fa-brands fa-linkedin"></i>Linkedin</a>
+                <a class="item__contatos link__github" href="https://github.com/Wellington2708"><i
+                        class="fa-brands fa-github"></i>Github</a>
+                <a class="item__contatos link__facebook" href="https://www.facebook.com/jhonnyn010">
+                    <i class="fa-brands fa-facebook"></i></i>Facebook</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/js/quemSou.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="js/certificados.js"></script>
+    <script src="/js/fasam.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/projetos.js"></script>
+
+</body>
+
 </html>
