@@ -6,7 +6,7 @@ const fasam = {
 
 }
 
-const logoFasam = document.querySelector(".formacao__fasam");
+const logoFasam = document.querySelector(".fasam__training");
 logoFasam.innerHTML = `
         <div class="curso__fasam">
             <h2 class="certificados__titulo">${fasam.titulo}</h2>

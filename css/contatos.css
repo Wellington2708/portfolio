@@ -15,7 +15,7 @@
 
 }
 
-.lista__contatos {
+.list__contatos {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -25,7 +25,7 @@
     
 }
 
-.navegacao__cabecalho {
+.navegation__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@
 }
 
 .item__contatos:hover {
-    background-color: var(--hover-navegacao);
+    background-color: var(--hover-navegation);
 } 
 
 
@@ -73,12 +73,12 @@
 
 
 @media (max-width: 768px) {
-    .cabecalho {
+    .container {
       flex-wrap: wrap;
       align-items: center;
     }
     
-    .cabecalho__lista {
+    .container__list {
       flex-direction: column;
     }
 

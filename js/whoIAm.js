@@ -6,14 +6,14 @@ let tecnologias = {
 
 }
 
-let botao = document.querySelector(".botao__quem-sou");
-botao.addEventListener("click" , sobreMim);
+let button = document.querySelector(".button__whoIAm");
+button.addEventListener("click" , aboutMe);
 let idade = 34;
 let nome = "Wellington Junior";
 
-function sobreMim(){
-    let sobreMim = document.querySelector(".apresentacao__quem__sou");
-    sobreMim.innerHTML= `
+function aboutMe(){
+    let aboutMe = document.querySelector(".presentation__whoIAm");
+    aboutMe.innerHTML= `
     <style>
         .fechar {
             color: var(--color-principal);
@@ -53,8 +53,8 @@ function sobreMim(){
 function fechar(){
     let fechar = document.querySelector(".fechar__botao")
     fechar.innerHTML = `
-    <div class="apresentacao__quem__sou">
-        <button type="button" onclick="sobreMim()"  class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
+    <div class="presentation__whoIAm">
+        <button type="button" onclick="aboutMe()"  class="btn btn-outline-warning button__whoIAm">About Me</button>
 
     </div>    
     `

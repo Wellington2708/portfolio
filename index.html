@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/sobreMim.css">
     <link rel="stylesheet" href="/css/contatos.css">
-    <link rel="stylesheet" href="/css/habilidades.css">
+    <link rel="stylesheet" href="/css/skills.css">
     <link rel="stylesheet" href="/css/projetos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -25,49 +25,45 @@
 </head>
 
 <body>
-    <!-- Cabecalho -->
-    <main class="cabecalho">
-        <h1><img src="assets/logo2.png" alt="logo Wellington Junior Developer Front-End" class="cabecalho__logo"></h1>
-        <nav class="cabecalho__navegacao">
-            <ul class="cabecalho__lista">
-                <li><a href="#sobreMim" class="cabecalho__lista__item">About me</a></li>
-                <li><a href="#habilidades" class="cabecalho__lista__item">Skills</a></li>
-                <li><a href="#graduacao" class="cabecalho__lista__item">Graduation</a></li>
-                <li><a href="#projetos" class="cabecalho__lista__item">Projects</a></li>
-                <li><a href="#contatos" class="cabecalho__lista__item">Contacts</a></li>
-                <div class="audio__container">
-                    <audio src="/audio/Bon Jov-Its My Life.mp3" type="audio/mp3" controls class="audio"></audio>
-                    <label class="audio__titulo">Bon Jovi - It's My Life</label>
-                </div>
+    <!-- container -->
+    <header class="container">
+        <h1><img src="assets/logo2.png" alt="logo Wellington Junior Developer Front-End" class="container__logo"></h1>
+        <nav class="container__navegation">
+            <ul class="container__list">
+                <li><a href="#aboutMe" class="container__list__item">About me</a></li>
+                <li><a href="#skills" class="container__list__item">Skills</a></li>
+                <li><a href="#graduation" class="container__list__item">Graduation</a></li>
+                <li><a href="#projects" class="container__list__item">Projects</a></li>
+                <li><a href="#contacts" class="container__list__item">Contacts</a></li>
             </ul>
         </nav>
-    </main>
+    </header>
     <!--Section about me-->
-    <section id="sobreMim" class="apresentacao">
-        <div class="apresentacao__imagem">
-            <img src="assets/castelo.png" alt="Wellington tirando foto em frente ao castelo"
-                class="imagem__castelo">
+    <section id="aboutMe" class="presentation">
+        <div class="presentation__image">
+            <img src="assets/castelo.png" alt="Wellington taking a photo in front of the castle"
+                class="image__castle">
         </div>
-        <div class="apresentacao__quem__sou">
-            <button type="button" class="btn btn-outline-warning botao__quem-sou">Sobre Mim</button>
+        <div class="presentation__whoIAm">
+            <button type="button" class="btn btn-outline-warning button__whoIAm">About me</button>
         </div>
     </section>
 
-    <!--Section das habilidades com os principais certificados-->
-    <section id="habilidades" class="certificados habilidades">
+    <!--skills section with key certificates -->
+    <section id="skills" class="training skills">
         <div class="certificates">
                 <!-- Conteúdo do carrossel aqui -->
         </div>
     </section>
 
     <!--Section da graduação -->
-     <section id="graduacao" class="formacao__fasam"> 
-    <!--Imagem Fasam -->
+     <section id="graduation" class="fasam__training"> 
+    <!--image Fasam -->
     </section>
 
     <!--Section para projetos-->
 
-    <section id="projetos" class="carrossel__projetos">
+    <section id="projects" class="carrossel__projetos">
 
     <!-- Conteúdo com as Imagens dos projetos  -->
 
@@ -75,11 +71,11 @@
 
     <!--Section para contatos-->
 
-    <section id="contatos" class="contatos">
+    <section id="contacts" class="contatos">
         <h2 class="titulo__contatos">Contatos:</h2>
         <div class="contatos">
 
-            <div class="lista__contatos">
+            <div class="list__contatos">
                 <a class="item__contatos link__email" href="mailto:wellingtondevelopercontact@gmail.com"><i
                         class="fa-solid fa-envelope"></i>Email</a>
                 <a class="item__contatos link__linkedin"
@@ -95,20 +91,20 @@
     </section>
 
 
-    <script src="/js/quemSou.js"></script>
+    <script src="/js/whoIAm.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <script src="js/certificados.js"></script>
+    <script src="js/training.js"></script>
     <script src="/js/fasam.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/js/projetos.js"></script>
+    <script src="/js/projects.js"></script>
 
 </body>
 

@@ -89,9 +89,9 @@ const dados = {
 for(let certificate of dados.certificates) {
   const certificates = document.querySelector(".certificates");
   certificates.innerHTML = `
-  <section id="habilidades" class="certificados habilidades">
+  <section id="skills" class="training skills">
         <div>
-            <h2 class="certificados__titulo">Certificados Front-End</h2>
+            <h2 class="training__title">Frontend Certificates</h2>
         <div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">

@@ -1,5 +1,5 @@
 /* Section skills */
-.certificados {
+.training {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 
-.certificados__titulo {
+.training__title {
     color: var(--titulo-imagens);
     text-align: center;
     text-transform: uppercase;
@@ -37,7 +37,7 @@
 
 /* Fasam */
 
-.formacao__fasam {
+.fasam__training {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +109,7 @@
 }
 
 @media (max-width: 768px) {
-    .formacao__fasam {
+    .fasam__training {
       align-items: center;
     }
   
