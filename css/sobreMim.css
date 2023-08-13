@@ -57,9 +57,6 @@
 
     /*About me*/
 
-    .presentation__image {
-        width: 600px;
-    }
 
     .presentation__image img {
         width: 100%;
@@ -76,12 +73,13 @@
         box-shadow: 10px 10px 10px 0 #dce8d5;
     }
 
-    .presentation__whoIAm {
+    .presentation {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
 
 
 }
