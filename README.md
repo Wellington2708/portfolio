@@ -35,7 +35,7 @@ The "Contacts" section provides contact information, including email, LinkedIn, 
 
 ## Execution Instructions
 
-1. Clone the repository: `git clone https://github.com/YourUsername/YourRepository.git`
+1. Clone the repository: `git clone https://github.com/Wellington2708/portfolio.git`
 2. Open the `index.html` file in your browser.
 3. Alternatively, you can visit the site on [Vercel](https://www.portfolio-indol-six-56.vercel.app).
 
@@ -95,7 +95,7 @@ A seção "Contacts" fornece informações de contato, incluindo e-mail, LinkedI
 
 ## Instruções de Execução
 
-1. Clone o repositório: `git clone https://github.com/SeuUsuário/SeuRepositorio.git`
+1. Clone o repositório: `git clone https://github.com/Wellington2708/portfolio.git`
 2. Abra o arquivo `index.html` em seu navegador.
 3. Como opção, pode acessar o site do [Vercel](https://www.portfolio-indol-six-56.vercel.app)
 
