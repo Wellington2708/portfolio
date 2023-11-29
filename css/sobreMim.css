@@ -10,7 +10,7 @@
 
 .presentation .image__castle {
     width: 35vw;
-    box-shadow: 10px 10px 10px 0 #0f0f0f;
+    box-shadow: 10px 10px 10px 0 #118757;
     
 }
 
@@ -58,21 +58,6 @@
     /*About me*/
 
 
-    .presentation__image img {
-        width: 100%;
-        
-    }
-
-
-    .image__castle {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        box-shadow: 10px 10px 10px 0 #dce8d5;
-    }
-
     .presentation {
         display: flex;
         flex-direction: column;
@@ -80,6 +65,17 @@
         align-items: center;
     }
 
+    .presentation__image .image__castle {
+        width: 270px; 
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 10px 10px 10px 0 #118757;
+    }
 
-
+    .carousel-inner img {
+        width: 100%; /* Defina a largura que você deseja para as imagens */
+        height: auto; /* Isso manterá a proporção original das imagens */
+      }
 }
