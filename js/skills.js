@@ -1,25 +1,25 @@
-fetch("../js/projects.json")
+fetch("../js/certificados.json")
   .then((response) => response.json())
   .then((data) => {
-    const containerProjects = document.getElementById("projects");
+    const skills = document.getElementById("skills");
     const divSubtitulo = document.createElement("div");
     const subtitulo = document.createElement("h2");
     const containerCarrossel = document.createElement("div");
     const carrosselInner = document.createElement("div");
 
     subtitulo.classList.add("container__title");
-    subtitulo.textContent = "Projects";
+    subtitulo.textContent = "Skills";
     containerCarrossel.classList.add("carousel", "slide");
     containerCarrossel.setAttribute("data-bs-ride", "carousel");
-    containerCarrossel.id = "carouselExampleInterval";
+    containerCarrossel.id = "carouselExampleAutoplaying";
     carrosselInner.classList.add("carousel-inner");
 
     divSubtitulo.appendChild(subtitulo);
-    containerProjects.appendChild(divSubtitulo);
-    containerProjects.appendChild(containerCarrossel);
+    skills.appendChild(divSubtitulo);
+    skills.appendChild(containerCarrossel);
     containerCarrossel.appendChild(carrosselInner);
 
-    data.projects.forEach((element, index) => {
+    data.certificates.forEach((element, index) => {
       const divImagem = document.createElement("div");
       const image = document.createElement("img");
 
@@ -30,26 +30,27 @@ fetch("../js/projects.json")
       }
 
       image.classList.add("d-block", "w-100");
-      image.src = element.src;
+      image.src = element.imagem;
       image.alt = element.alt;
 
       divImagem.appendChild(image);
       carrosselInner.appendChild(divImagem);
       containerCarrossel.appendChild(carrosselInner);
     });
-    containerProjects.appendChild(containerCarrossel);
+
+    skills.appendChild(containerCarrossel);
     const divBotoes = document.createElement("div");
     divBotoes.innerHTML = `
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-    data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-    data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button> `;
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> `;
 
     containerCarrossel.appendChild(divBotoes);
   })

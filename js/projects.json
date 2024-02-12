@@ -1,0 +1,60 @@
+{
+    "projects" : [
+    {
+      "src": "assets/curriculo.png",
+      "alt": "Curriculo desenvolvido com HTML e CSS",
+      "descricao": "Curriculo criado com a utilização de HTML, CSS e Javascript. Nele trabalho background, funções JS e listas."
+    },
+    {
+      "src": "assets/barbearia.png",
+      "alt": "Site para barbearia",
+      "descricao": "Site desenvolvido para antender clientes de uma barbearia. Com ele foi trabalhado HTML, CSS e aplicação de API."
+    },
+    {
+      "src": "assets/jogo1.png",
+      "alt": "Jogo de atravessia de rua",
+      "descricao": "Jogo desenvolvido no site P5JS. Com ele foi trabalhado a lógica de programação utilizando Javascript."
+    },
+    {
+      "src": "assets/jogo3.png",
+      "alt": "Jogo de adivinhação do número sorteado",
+      "descricao": "Jogo de sorteio numeral. Curso realizado para aprendizado de Javascript e sua aplicação do comando de voz."
+    },
+    {
+      "src": "assets/arrays.png",
+      "alt": "Projeto de desenvolvido com arrays",
+      "descricao": "Site da Alura com seus valores de cursos e suas promoções. Projeto desenvolvido para trabalhar com ARRAY em Javascript."
+    },
+    {
+      "src": "assets/flexbox.png",
+      "alt": "Curso feito para posicionamento de elementos",
+      "descricao": "Site de divulgação de cursos. Projeto específico de Flexbox, desenvolvido para praticar posicionamento de elementos."
+    },
+    {
+      "src": "assets/flix.png",
+      "alt": "Projeto baseado em streaming de filmes.",
+      "descricao": "Projeto desenvolvido com a intenção de replicar o site da Alura+. Nesse trabalho foi utilizado HTML e CSS."
+    },
+    {
+      "src": "assets/validacao.png",
+      "alt": "Site de cadastro",
+      "descricao": "Site para cadastro de dados. Desenvolvido para o aprendizado de aplicação de API para validação de dados."
+    },
+    {
+      "src": "assets/geek.png",
+      "alt": "Site de venda",
+      "descricao": "Site de vendas de produtos. Projeto desenvolvido para praticar HTML e CSS utilizando layout existe no FIGMA."
+    },
+    {
+      "src": "assets/midi.png",
+      "alt": "Site de intrumento musical desenvolvido em JS",
+      "descricao": "Jogo de reprodução de sons. Projeto para trabalhar com JS manipulando o DOM, e adicionar interação do usuário."
+    },
+    {
+      "src": "assets/jogo2.png",
+      "alt": "Jogo de raquetes",
+      "descricao": "Jogo desenvolvido para praticar lógica de programação utiliando comandos de Javascript como funções."
+    }
+  ]
+  
+}

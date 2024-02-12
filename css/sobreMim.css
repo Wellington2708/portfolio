@@ -1,4 +1,3 @@
-
 /* Section about me */
 
 .presentation {
@@ -8,10 +7,13 @@
     align-items: center;
 }
 
-.presentation .image__castle {
-    width: 35vw;
+.presentation__image .image__castle {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 10px 10px 10px 0 #118757;
-    
 }
 
 .image__castle:hover {
@@ -21,6 +23,7 @@
 .presentation__whoIAm {
     padding: 1.5em 0;
     text-align: -webkit-center;
+    max-width: 500px;
 }
 
 .button__whoIAm {
@@ -38,6 +41,17 @@
 }
 
 
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 @media (max-width: 768px) {
 
     .container {
@@ -48,34 +62,4 @@
 
 
     }
-
-    .container__list__item {
-        width: 20px;
-    }
-
-
-
-    /*About me*/
-
-
-    .presentation {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .presentation__image .image__castle {
-        width: 270px; 
-         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 10px 10px 10px 0 #118757;
-    }
-
-    .carousel-inner img {
-        width: 100%; /* Defina a largura que você deseja para as imagens */
-        height: auto; /* Isso manterá a proporção original das imagens */
-      }
 }
