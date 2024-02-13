@@ -1,93 +1,57 @@
 
 /* Fasam */
 
-.fasam__training {
+.fasam__course {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 
-.curso__fasam {
+.course__fasam {
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
-    align-items: center;
     align-items: center;
 }
 
+.certificates__title {
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
 
-.imagem__fasam {
+
+.image__fasam {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 500px;
     padding: 1em;
 
 }
 
-
 .texto__fasam {
-    color: var(--texto-fasam);
-    font-weight: 800;
+    color: var(--absolute-black);
+    font-weight: 900;    
     font-family: var(--font-Chakra400);
     font-size: 15px;
 }
-
-/* Accordion */
 
 .accordion {
-    width: 27%;
-    margin-left: 36.5%;
-    background-color: black;
-}
-
-
-
-.accordion-body {
-
-    background-color: #49b9ea;
-    font-size: 15px;
-    font-family: var(--font-Chakra400);
-}
-
-.accordion-button {
     text-align: center;
-    background-color: var(--border-projetos);
-    color: white;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-
+    width: 500px;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: var(--border-projetos);
-    color: var(--color-principal);
-
+    background-color: var(--light-blue);
+    color: var(--white);
+    
 }
 
-.accordion-button:not(.collapsed)::after {
-    transform: inherit;
-}
 
 @media (max-width: 768px) {
-    .fasam__training {
-        align-items: center;
-    }
-
-    .curso__fasam {
-        width: 100%;
-        padding: 0.5em;
-    }
-
-    .imagem__fasam {
-        width: 100%;
-    }
-
-    .accordion {
-        width: 90%;
-        margin-left: 5%;
+    .image__fasam {
+        width: 75%;
     }
 }

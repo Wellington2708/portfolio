@@ -1,0 +1,118 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title__contacts{
+    color: var(--dark-blue);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.list__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 2em;
+
+    
+}
+
+
+
+.navegation__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.item__contacts {
+    text-decoration: none;
+    color: var(--dark-black);
+    padding: 0.3em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 44px;
+
+
+}
+
+.item__contacts:hover {
+    background-color: var(--light-blue);
+    border-radius: 10px;
+    background-color: var(--white);
+
+    
+} 
+
+
+.fa-envelope {
+    color: var(--red);
+    margin-right: 10px;
+}
+
+.fa-linkedin{
+    margin-right: 10px;
+    color: var(--medium-blue);
+
+}
+
+.fa-github {
+    color:  var(--absolute-black);
+    margin-right: 10px;
+}
+
+.fa-facebook {
+    margin-right: 10px;
+    color: var(--medium-blue);
+
+}
+
+.link-tooltip {
+    position: relative;
+}
+
+.link-tooltip::after {
+    content: "Click to be directed";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--dark-black);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    width: 250px;
+    text-align: center;
+}
+
+.link-tooltip:hover::after {
+    opacity: 1;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .container__list {
+      flex-direction: column;
+    }
+
+    .item__contacts {
+        font-size: 25px;
+    }
+  }

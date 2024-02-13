@@ -1,0 +1,46 @@
+/* Section Projects */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-blue);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.container__title {
+    color: var(--dark-blue);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.carousel-item .projects-image {
+    max-width: 55%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px 0 var(--navy-blue);
+}
+
+/* This project description will be inserted later by the
+mouseover */
+
+
+.descrition__project {
+    color: var(--dark-black);
+    max-width: 85%;
+    margin-bottom: 20%;
+    border: solid 2px var(--red);
+    margin-left: 7%;
+}
+
+.carousel-item .projects-image{
+    max-width: 75%;
+    margin: 0 auto;
+
+}

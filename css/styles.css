@@ -1,17 +1,19 @@
 :root {
     --font-Chakra400: 'Chakra Petch', sans-serif;
     --background: #ADD8E6;
-    --color-principal:#020a0a;
-    --borda-itens: #4d54e7;
-    --color-descrition: rgb(203 233 224);
-    --titulo-imagens: rgb(55, 17, 180);
-    --textos: rgb(11, 10, 12);
-    --background-navegation: rgb(13, 11, 146);
-    --border-projetos: #d01440;
-    --fonte-creditos: Arial, Helvetica, sans-serif;
-    --texto-fasam: #100f02;
-    --hover-itens-cabecalho: rgb(43, 153, 226);
-    --hover-navegation: rgb(36, 169, 231);
+    --white: #FFF;
+    --soft-white: #f5f5ef;
+    --absolute-black: #020a0a;
+    --light-blue: #4d54e7;
+    --dark-blue: #3711b4;
+    --dark-black: #0b0a0c;
+    --red: #d01440;
+    --medium-blue: #0a66c2;
+    --dark-green: #118757;
+    --light-gray: #e7eae5;
+    --navy-blue: #1d016f;
+
+
 }
 
 * {
@@ -22,7 +24,9 @@
 body {
     font-family: var(--font-Chakra400);
     background-color: var(--background);
+
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -32,3 +36,18 @@ section {
     height: 100vh;
 }
 
+.fixed-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1000; 
+}
+
+.fixed-link:hover {
+    background-color: #0056b3;
+}

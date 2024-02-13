@@ -1,0 +1,89 @@
+{ 
+  "certificates" : [
+        {
+            "id": 1,
+            "title": "Programming Logic",
+            "description": "Explore Functions and List",
+            "certificate": "/assets/certificates/logic-js-1.png",
+            "alt": "Programming Logic Certificate",
+            "category":"logic"
+          },
+          {
+            "id": 2,
+            "title": "HTML and CSS",
+            "description": "Practicing HTML/CSS",
+            "certificate": "/assets/certificates/html-css.png",
+            "alt": "Practicing HTML/CSS Cestificate",
+            "category":"html"
+          },
+          {
+            "id": 3,
+            "title": "CSS",
+            "description": "Arranging elements with Flexbox and Grid",
+            "certificate": "/assets/certificates/flexbox-grid.png",
+            "alt": "Flexbox and Grid Certificate",
+            "category": "css"
+          },
+          {
+            "id": 4,
+            "title": "Git and Github.",
+            "description": "Control and share your code.",
+            "certificate": "/assets/certificates/git-github.png",
+            "alt": "GIT e Github Certificate",
+            "category": "git"
+          },
+          {
+            "id": 5,
+            "title": "Javascript",
+            "description": "Programming Object Oriented.",
+            "certificate": "/assets/certificates/javascript-OO.png",
+            "alt": "Certificado de Orientação a Objeto em JS",
+            "category": "Javascript"
+          },
+          {
+            "id": 6,
+            "title": "Javascript for the Web.",
+            "description": "Create Dynamic Pages.",
+            "certificate": "/assets/certificates/javascript-dinamic.png",
+            "alt": "Javascript for the Web Certificate",
+            "category": "Javascript"
+          },
+          {
+            "id": 7,
+            "title": "Javascript API",
+            "description": "Consuming and Handling DATA from an API.",
+            "certificate": "/assets/certificates/javascript-api.png",
+            "alt": "Javascript API Certificate",
+            "category": "Javascript"
+          },
+          {
+            "id": 8,
+            "title": "Javascript on the Web.",
+            "description": "Storing DATA in the Browser.",
+            "certificate": "/assets/certificates/javascript-local.png",
+            "alt": "Javascript on the Web Certificate",
+            "category": "Javascript"
+          },
+          {
+            "id": 9,
+            "title": "React",
+            "description": "Developing with Javascript.",
+            "certificate": "/assets/certificates/react-js.png",
+            "alt": "React JS Certificate",
+            "category": "React"
+  
+          },
+          {
+            "id": 10,
+            "title": "React JSX.",
+            "description": "Building components with JSX.",
+            "certificate": "/assets/certificates/react-jsx.png",
+            "alt": "React JSX Certificate",
+            "category": "React"
+  
+          }  
+    ] 
+ 
+
+  }
+

@@ -1,45 +1,64 @@
+// Requesting JSON data and creating elements
+
+
 fetch("../js/projects.json")
   .then((response) => response.json())
   .then((data) => {
+
+    // creating container
     const containerProjects = document.getElementById("projects");
-    const divSubtitulo = document.createElement("div");
-    const subtitulo = document.createElement("h2");
-    const containerCarrossel = document.createElement("div");
-    const carrosselInner = document.createElement("div");
+    const divSubtitle = document.createElement("div");
+    const subtitle = document.createElement("h2");
+    const containerCarousel = document.createElement("div");
+    const carouselInner = document.createElement("div");
 
-    subtitulo.classList.add("container__title");
-    subtitulo.textContent = "Projects";
-    containerCarrossel.classList.add("carousel", "slide");
-    containerCarrossel.setAttribute("data-bs-ride", "carousel");
-    containerCarrossel.id = "carouselExampleInterval";
-    carrosselInner.classList.add("carousel-inner");
+    subtitle.classList.add("container__title");
+    subtitle.textContent = "Projects";
+    containerCarousel.classList.add("carousel", "slide");
+    containerCarousel.setAttribute("data-bs-ride", "carousel");
+    containerCarousel.id = "carouselExampleInterval";
+    carouselInner.classList.add("carousel-inner");
 
-    divSubtitulo.appendChild(subtitulo);
-    containerProjects.appendChild(divSubtitulo);
-    containerProjects.appendChild(containerCarrossel);
-    containerCarrossel.appendChild(carrosselInner);
+    divSubtitle.appendChild(subtitle);
+    containerProjects.appendChild(divSubtitle);
+    containerProjects.appendChild(containerCarousel);
+    containerCarousel.appendChild(carouselInner);
 
-    data.projects.forEach((element, index) => {
-      const divImagem = document.createElement("div");
+    //using forEach to access data from JSON file
+
+    data.projects.forEach((element, index, href) => {
+      const divImage = document.createElement("div");
+      const linkProject = document.createElement('a');
+      linkProject.setAttribute('href', href);
+      linkProject.setAttribute('target' , '_blank')
+      
       const image = document.createElement("img");
 
       if (index === 0) {
-        divImagem.classList.add("carousel-item", "active");
+        divImage.classList.add("carousel-item", "active");
       } else {
-        divImagem.classList.add("carousel-item");
+        divImage.classList.add("carousel-item");
       }
 
-      image.classList.add("d-block", "w-100");
+      image.classList.add("d-block", "w-100", "projects-image" );
+  
       image.src = element.src;
       image.alt = element.alt;
+      linkProject.href = element.href;
 
-      divImagem.appendChild(image);
-      carrosselInner.appendChild(divImagem);
-      containerCarrossel.appendChild(carrosselInner);
+      linkProject.appendChild(image);
+
+      divImage.appendChild(linkProject);
+      carouselInner.appendChild(divImage);
+      containerCarousel.appendChild(carouselInner);
     });
-    containerProjects.appendChild(containerCarrossel);
-    const divBotoes = document.createElement("div");
-    divBotoes.innerHTML = `
+
+    containerProjects.appendChild(containerCarousel);
+
+    //Creating button for navigation between images using bootstrap
+
+    const divButton = document.createElement("div");
+    divButton.innerHTML = `
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
     data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -51,8 +70,10 @@ fetch("../js/projects.json")
     <span class="visually-hidden">Next</span>
   </button> `;
 
-    containerCarrossel.appendChild(divBotoes);
+    containerCarousel.appendChild(divButton);
   })
+
+  //error message if it is not possible to access the JSON file data
   .catch((error) => {
-    console.error("Erro ao carregar o JSON:", error);
+    console.error("Error loading JSON:", error);
   });
